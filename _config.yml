@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: e-ducat.fr
+title: bitcoin-france.org
 
 # Short description of your site
-description: Learn Bitcoin scripting language and play with scripts!
+description: Official website of Bitcoin France association (non-profit)
 
 # --- Navigation bar options --- #
 
@@ -40,23 +40,23 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/Pierre_Noizat_Photo.jpg"
+avatar: "/img/logo_bitcoin_france.png"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Pierre Noizat
+  name: Association Bitcoin France
   email: "boussac.75011@gmail.com"
   facebook: pierre.noizat
   github: pierrenoizat
   twitter: e_ducat
-  linkedin: pierrenoizat  # eg. daattali
+  linkedin: pierrenoizat
   stackoverflow: yourlink  # eg. "3943160/daattali"
   youtube: yourlink # eg. user/daattali or channel/daattali
   bitcoin: "1PierreFUi7RuFkkA812MQyRruDZhzzh7Y"
-  creativecommons: "e-ducat.fr est publié sous la licence Creative Commons Paternité - Partage à l’Identique 2.0 France."
+  creativecommons: "bitcoin-france.org est publié sous la licence Creative Commons Paternité - Partage à l’Identique 2.0 France."
   qrcode: "/assets/unitag_qrcode_Pierre.png"
 
 # Select which links to show in the footer
@@ -81,7 +81,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "e-ducat.fr"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "bitcoin-france.org"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
