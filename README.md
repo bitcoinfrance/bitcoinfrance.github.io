@@ -1,8 +1,8 @@
-# e-ducat.fr
+# bitcoin-france.org
 
-> *Copyright 2011-2019 Pierre Noizat. Licensed under the Creative Commons Paternité - Partage à l’Identique 2.0 France license.*
+> *Copyright 2014-2020 Association Bitcoin France. Licensed under the Creative Commons Paternité - Partage à l’Identique 2.0 France license.*
 
-**e-ducat** , lancé en octobre 2011, est le premier blog francophone consacré à Bitcoin.
+**bitcoin-france.org** , site officiel de l'association Bitcoin France, fondée en 2014.
 
 ### Contributions
 

@@ -20,6 +20,7 @@ author:
   first_name: ''
   last_name: ''
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 ![Ian Clarke et Bram Cohen]({{ site.baseurl }}/assets/clarke_cohen.png)
 

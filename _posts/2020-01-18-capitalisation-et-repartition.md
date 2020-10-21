@@ -18,6 +18,7 @@ author:
   first_name: ''
   last_name: ''
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 ![Bernard Maris, auteur de l'Anti-manuel d'économie]({{ site.baseurl }}/assets/bernard_maris.jpg)
 

@@ -18,6 +18,7 @@ author:
   first_name: ''
   last_name: ''
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 ![Sadi Carnot]({{ site.baseurl }}/assets/sadi_carnot.jpeg)
 

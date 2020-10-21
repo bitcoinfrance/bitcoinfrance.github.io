@@ -18,6 +18,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 La consommation énergétique de l'algorithme PoW reste le mantra favori des crypto-sceptiques.
 Le sujet est abondamment couvert par des publications dénuées de toute rigueur scientifique qui tentent de démontrer que cette consommation serait excessive. Excessive par rapport à quoi d'ailleurs ?

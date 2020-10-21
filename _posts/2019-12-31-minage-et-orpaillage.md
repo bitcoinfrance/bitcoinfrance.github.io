@@ -18,6 +18,7 @@ author:
   first_name: ''
   last_name: ''
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 ![Lutte contre l'orpaillage]({{ site.baseurl }}/assets/orpaillage-1563468536.jpg)
 
