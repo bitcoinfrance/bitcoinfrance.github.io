@@ -16,7 +16,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
-
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 Les hard forks de Bitcoin se multiplient dans le sillage de Bitcoin Cash (BCH). 
 Les promoteurs de ces forks y voient sans doute un moyen commode de lancer un altcoin à peu de frais.

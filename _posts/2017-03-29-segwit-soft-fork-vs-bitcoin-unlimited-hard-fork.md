@@ -16,6 +16,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 Le remplissage moyen d’un bloc Bitcoin atteint depuis fin 2016 presque 100%. Il est en progression linéaire depuis 2012 et c’est un autre signe du succès de Bitcoin.
 

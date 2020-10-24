@@ -18,6 +18,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 Cet article marque la migration de e-ducat.fr de Wordpress à Jekyll, une autre technologie libre pour les blogs: j'espère que ce nouveau style vous plaira. Il me reste encore à importer les commentaires des articles passés sur la version wordpress. Ce sera fait prochainement.
 

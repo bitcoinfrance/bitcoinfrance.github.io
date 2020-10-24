@@ -16,6 +16,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 Le hard fork Bitcoin Cash (BCC), effectif depuis le minage du premier bloc BCC le 1er aout (bloc 478559) par ViaBTC contenant près de 2 Mo de transactions, est une expérience inédite et passionnante non seulement pour les Bitcoiners mais aussi pour les investisseurs dans les tokens et autres altcoins.
 

@@ -27,7 +27,6 @@ navbar-links:
   Blog: "./links/archive/#allposts"
   Livres: "./links/livre"
   Media: "./links/media"
-  Projets: "./links/projects"
   Bitcoin:
     - Introduction: "./links/introduction"
     - Démarrage: "./links/gettingstarted"

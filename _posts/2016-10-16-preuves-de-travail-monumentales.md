@@ -17,6 +17,7 @@ author:
   first_name: 'Pierre'
   last_name: 'Noizat'
 ---
+Cet article est repris d'une publication initiale sur le blog [e-ducat.fr](https://e-ducat.fr).
 
 Le passage récent d'Andreas Antonopoulos à Paris me donne l'occasion de rappeler sa présentation très claire (à San Francisco) sur le concept d'immutabilité et de preuve-de travail ("proof-of work"):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rsLrJp6cLf4?rel=0" frameborder="0" allowfullscreen></iframe>
