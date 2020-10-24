@@ -30,7 +30,7 @@ Le sujet du jour, au lendemain de la conférence Ethereum de Shanghai, porte sur
 
 _Vitalik Buterin, Co-fondateur de l'Ethereum Foundation_
 
-Je me demande si un(e) paricipant(e) en a profité pour ramener de Shanghai des réponses aux questions suivantes:
+Je me demande si un(e) participant(e) en a profité pour ramener de Shanghai des réponses aux questions suivantes:
 
 1) **Minage**: 
 
