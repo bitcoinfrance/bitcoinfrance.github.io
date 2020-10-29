@@ -15,10 +15,10 @@ meta:
   _edit_last: '1'
 author:
   login: admin
-  email: noizat@hotmail.com
-  display_name: Boussac
-  first_name: ''
-  last_name: ''
+  email: philippe@avoltapartners.com
+  display_name: Philippe Rodriguez
+  first_name: 'Philippe'
+  last_name: 'Rodriguez'
 ---
 
 ![Le siège de la Banque des règlements internationaux (BRI) à Bâle]({{ site.baseurl }}/assets/bis_tower.png)
@@ -39,16 +39,16 @@ La BRI joue le rôle de médiateur et de coordination des banques centrales. Cr�
 Benoît Cœuré est responsable du pôle d'innovation de la BRI et membre du comité exécutif de la banque. Auparavant, il était membre du conseil d'administration de la Banque centrale européenne. De 2013 à 2019, il a présidé le comité des paiements et des infrastructures de marché de la BRI. Il indique dans une allocution récente que : "Plus tôt cette année, 80% des banques centrales du monde avaient déjà commencé à conceptualiser et à rechercher le potentiel des CBDC (CBDC est l'acronyme pour "Central Bank Digital Currency"), 40% élaboraient des preuves de concept et 10% déployaient des projets pilotes, selon les recherches de la BRI" Les thèmes de recherche du nouveau département dédié à l'innovation seront : les CBDC et la technologie du grand livre distribué (DLT) aux côtés d'autres questions de banque centrale telles que la cybersécurité, l'intelligence artificielle et les paiements numériques. 
 
 Pour le patron de l'innovation de la banque, "Une CBDC serait une sorte de billet de banque numérique et, en tant que telle, pourrait satisfaire plus de cas d'utilisation que le papier tandis que l'émetteur, en tant que banque centrale, pourrait soutenir la liquidité, le caractère définitif du règlement et la confiance dans la valeur de la monnaie. En conséquence, il pourrait promouvoir la diversité des paiements, aider à rendre les paiements transfrontaliers plus rapides et moins chers, favoriser l'inclusion financière et même faciliter les transferts fiscaux en temps de crise, comme la pandémie actuelle de COVID-19". 
-Les propos de Benoit Coeuré comporte pas mal de contradictions pour les relever toutes.   Evoquer la liquidité, qui entraine de l’impression sans fin de monnaie, sans parler de la perte de confiance dans ces monnaies, est un exemple parmi d’autres. 
-Finalement ce qui est décrit ici ressemble beaucoup à la monnaie électronique qui est déjà régulée. 
+Les propos de Benoit Coeuré comporte trop de contradictions pour les relever toutes.   La plus flagrante: soutenir coûte que coûte la liquidité, ce qui suppose une création monétaire infinie, tout en passant sous silence la perte de confiance qui peut légitimement en résulter.
+Finalement ce qui est décrit ici ressemble beaucoup à la monnaie électronique, qui est déjà régulée. 
 
-Beaucoup d’initiatives ont fleuri récemment et de grands groupes comme Facebook prônent l’avènement de monnaies digitales privées. En chine des millions de personnes se seraient inscrites à une loterie pour recevoir du renminbi numérique à Shenzhen dans le cadre du projet pilote de la banque centrale chinoise. Les entreprises technologiques, les banques, les ONG et les sociétés de conseil se bousculent désormais pour surfer sur la prochaine vague d’innovation les monnaies digitales.
+Beaucoup d’initiatives ont fleuri récemment et de grands groupes comme Facebook prônent l’avènement de monnaies digitales privées. En Chine des millions de personnes se seraient inscrites à une loterie pour recevoir du renminbi numérique à Shenzhen dans le cadre du projet pilote de la banque centrale chinoise. Les entreprises technologiques, les banques, les ONG et les sociétés de conseil se bousculent désormais pour surfer sur cette prochaine vague d’innovation que sont les monnaies digitales.
 
 Mais l’initiative de la BRI, même si elle est remarquable au sens de la curiosité intellectuelle, ne permettra pas de créer une nouvelle monnaie digitale tant elle est engoncée dans un principe d’autocensure. En effet, Benoit Coeuré nous vante les mérites du guide mis en place pour les banques centrales. 
 
 Il nous explique que ce guide « présente également l’équivalent d’un serment monétaire d’Hippocrate, promettant que toute monnaie digitale de banque centrale potentielle ne devrait “nuire” pas aux mandats de stabilité monétaire et financière des banques centrales. En fait, il va encore plus loin en déclarant qu’une CBDC devrait compléter — et non remplacer — le cash et la monnaie électronique dans un nouvel écosystème monétaire.  
 
-La question que l’on peut décemment se poser, c’est de quelle innovation parle-t-on, quand de tels aprioris prédominent. L’innovation ne devrait pas être libérée du carcan de l’ordre établi ? Est-ce la meilleure organisation pour réfléchir à l’avenir de la monnaie que l’organisation qui est en charge de s’assurer de la stabilité du système actuel ?  
+La question que l’on peut décemment se poser, c’est de quelle innovation parle-t-on, quand de tels aprioris prédominent. L’innovation ne devrait pas être libérée du carcan de l’ordre établi ? Est-ce la meilleure organisation pour réfléchir à l’avenir de la monnaie que celle qui est en charge d'assurer la stabilité de son propre système monopolistique ?  
 
 Bitcoin ne s’embarrasse pas du système actuel pour continuer son développement technologique, économique et monétaire. Il ne cherche pas à nuire. Sans organisation centrale il n’a même pas de volonté propre. 
 L’écosystème Bitcoin ne s’intéresse pas aux banques centrales. Les banques centrales ont l’air de s’y intéresser beaucoup. Beaucoup trop ?
