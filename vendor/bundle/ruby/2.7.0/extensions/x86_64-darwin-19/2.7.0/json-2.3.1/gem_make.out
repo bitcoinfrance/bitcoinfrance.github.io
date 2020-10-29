@@ -1,0 +1,13 @@
+current directory: /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+/Users/noizat/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/noizat/.rvm/rubies/ruby-2.7.1/lib/ruby/site_ruby/2.7.0 -r ./siteconf20201028-59930-powgj9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" install

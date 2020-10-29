@@ -43,7 +43,7 @@ Il peut être copié à volonté. Evidemment la sauvegarde ne crée pas de nouve
 
 L’invention de Bitcoin en 2008 a réuni dans un même système trois fonctionnalités et des caractéristiques auparavant bien distinctes : un protocole d’échanges sur internet, une devise numérique et un registre public de transactions.
 
-Bitcoin désigne à la fois
+Le mot Bitcoin désigne à la fois
 1) les unités monétaires (vérifiables et transférables instantanément, divisibles à l'infini), 
 2) le réseau de pair à pair sur lequel elles circulent et
 3) le protocole qui régit les communications sur le réseau.

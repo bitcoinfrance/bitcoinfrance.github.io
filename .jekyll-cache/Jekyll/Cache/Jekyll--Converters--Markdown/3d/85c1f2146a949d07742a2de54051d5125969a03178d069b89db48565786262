@@ -1,0 +1,24 @@
+I"�<p>Il est théoriquement possible de trouver de nouveaux bitcoins grâce au « minage », c’est-à-dire en participant à la vérification des transactions : ce n’est pas le plus simple car il faut installer un logiciel, gratuit mais non trivial pour un néophyte, et disposer d’une puissance de calcul conséquente.</p>
+
+<p>Pour démarrer, le plus simple est donc de vendre un bien (par exemple des euros) ou un service contre des bitcoins.</p>
+
+<p><a href="https://paymium.com">Paymium.com</a> est un site qui permet à des particuliers de s’échanger des devises (euros) contre des bitcoins: il y a des vendeurs et des acheteurs qui constituent une «place de marché».
+Pour acheter des bitcoins, il faut passer par trois étapes:</p>
+
+<p><strong>Etape 1</strong>: Ouvrir un compte et faire un virement bancaire vers ce compte pour pouvoir échanger des euros contre des bitcoins.</p>
+
+<p><img src="/img/screenshot_paymium_funding.png" alt="Alimenter son compte en euros" /></p>
+
+<p>Le compte est maintenant approvisionné en euro..après le délai pris par le virement bancaire.</p>
+
+<p><strong>Etape 2</strong>: Consulter le carnet d’ordres (onglet “Acheter des Bitcoins (avancé)”) pour voir à quels prix les bitcoins sont proposés par les vendeurs sur la place de marché (colonne «Meilleurs vendeurs»).</p>
+
+<p><img src="/img/screenshot_paymium_buy.png" alt="Passer un ordre d'achat" /></p>
+
+<p><strong>Etape 3</strong>: Passer un ordre d’achat (de bitcoins) au prix limite que vous souhaitez fixer. Si votre prix limite est inférieur au prix du meilleur vendeur, votre ordre ne sera pas exécuté tant qu’un vendeur ne proposera pas une offre inférieure ou égale à votre prix limite.</p>
+
+<p>Votre ordre peut être exécuté partiellement si les vendeurs proposent une quantité inférieure à celle que vous demandez.</p>
+
+<p>Votre ordre peut être exécuté immédiatement si votre prix limite est supérieur ou égal à celui proposé par le meilleur vendeur.</p>
+
+:ET

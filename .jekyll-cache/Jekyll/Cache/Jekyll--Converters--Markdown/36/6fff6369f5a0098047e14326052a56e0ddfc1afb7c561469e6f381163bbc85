@@ -1,0 +1,58 @@
+I"�<p>La valeur des bitcoins naît du consensus d’une communauté pour accepter les bitcoins comme valeur d’échange.
+C’est exactement le même cas pour les monnaies étatiques (“fiat money”) comme le dollar puisque, depuis 1973, elles ne sont plus adossées à un étalon or (“commodity money”): la communauté nationale s’accorde donc pour reconnaître la valeur de billets sans attendre en échange la moindre possibilité de les convertir en or au guichet d’une banque, fut elle une banque centrale.</p>
+
+<p>Les bitcoins sont contenus dans des transactions regroupées par blocs. Chaque bloc représente une page dans le grand livre comptable qui constitue la base de données Bitcoin.</p>
+
+<p>Les 50 premiers bitcoins sont apparus le 3 janvier 2009 dans la transaction qui fixe l’origine temporelle de toutes les transactions suivantes.</p>
+
+<p>Depuis, plus de 150 000 blocs ont été enregistrés dans la base de données Bitcoin en date du 11 novembre 2011 : à chaque nouveau bloc correspond la création de 50 nouveaux bitcoins, sous la forme d’une récompense versée au participant du réseau qui a résolu le premier, avec son ordinateur, un calcul mathématique complexe (la « preuve de calcul »). La découverte de cette preuve de calcul permet de rattacher le bloc à la chaîne de blocs Bitcoin.</p>
+
+<p>On peut donc parler de création ex nihilo pour les bitcoins, exactement comme pour les euros ou les dollars créés ex nihilo par les crédits des banques.</p>
+
+<p>La création monétaire des bitcoins se fait par le versement de ces récompenses aux participants du processus de traitement des transactions.</p>
+
+<p>La valeur nominale de cette récompense sera divisée par deux tous les quatre ans afin d’appliquer la limite asymptotique (maximale) de 21 millions de bitcoins en circulation : récompense de 50 bitcoins par bloc actuellement, 25 bitcoins par bloc à partir de 2013, etc..</p>
+
+<p><img src="/img/bitcoin_money_supply_limit.png" alt="Limite des 21 millions" /></p>
+
+<p><img src="/img/bitcoin_money_supply_curve.png" alt="Courbe de création monétaire des bitcoins" /></p>
+
+<p><em>Les bitcoins sont créés progressivement par les mineurs avec une asymptote à 21 millions</em></p>
+
+<p>En plus de cette récompense créatrice de nouvelles unités monétaires, le participant au processus de traitement des transactions bitcoins reçoit, lorsqu’il résout un bloc, les commissions de traitement contenues dans les transactions (les redevances de transaction) du bloc en question.</p>
+
+<p>Ces commissions sont destinées à maintenir la motivation des participants lorsque le montant de la récompense aura diminué significativement.</p>
+
+<p>A cet horizon, on peut penser que la valeur des bitcoins aura augmenté suffisamment pour assurer la rentabilité du réseau de traitement des transactions.</p>
+
+<p>En effet, les bitcoins sont à la fois</p>
+
+<p>1) une réserve de valeur (comme l’or),</p>
+
+<p>2) des droits d’usage du réseau (comme des actions Visa ou Mastercard sont des droits sur les bénéfices de ces réseaux),</p>
+
+<p>3) une valeur d’échange (comme n’importe quelle devise)</p>
+
+<p>Il est important de réaliser que depuis 1971, le dollar n’est plus convertible en or : sa valeur est sous-tendue entièrement par sa valeur d’échange, elle-même assise sur l’obligation imposée à tous par l’Etat, de l’accepter comme paiement, à l’exclusion de toute autre devise, pour éviter toute forme de concurrence monétaire sur son territoire.</p>
+
+<p>De ce point de vue, les bitcoins ne sont ni plus ni moins acceptables comme monnaie d’échange que n’importe quelle autre devise. Leur valeur est appelée à croître à mesure que plus de commerçants l’acceptent comme moyen de paiement.</p>
+
+<p>Son utilisation combinée en tant que méta-devise, réserve de valeur et réseau de traitement de transactions électroniques, assure à bitcoin une évaluation croissante dans les prochaines années.</p>
+
+<p>En synthèse, on peut considérer que la valeur des bitcoins est fondée sur le consensus d’une communauté d’utilisateurs pour les reconnaître comme monnaie circulante. Par analogie, les sociétés traditionnelles primitives qui utilisaient des coquillages rares que tout le monde pouvait rechercher préfiguraient l’utilisation de ces « coquillages numériques » que sont les bitcoins.</p>
+
+<p>Avec 3 avantages fondamentaux pour les bitcoins,</p>
+
+<p>1) la communauté des « bitcoiners » ne connait pas de frontières,</p>
+
+<p>2) les échanges peuvent se faire instantanément et</p>
+
+<p>3) ces “coquillages numériques” sont divisibles à l’infini.</p>
+
+<p>La communauté Bitcoin a déjà connu les péripéties inhérentes à toute innovation et les a surmontées.</p>
+
+<p>Début avril 2011, 30 000 Bitcoins ont été cédés brutalement auprès du principal bureau de change (Mt Gox), provoquant une baisse du taux de change de près de 30% en une journée. Il n’y avait alors que 5 millions de bitcoins en circulation sur le maximum possible de 21 millions, pourtant, au bout de quelques jours, le bitcoin avait retrouvé son cours précédent.</p>
+
+<p>De même, mi-juin 2011, ce bureau de change s’est vu attaqué par un piratage informatique visant les clients qui avaient choisi un mot de passe faible pour accéder à leur compte sur ce site (mtgox.com) : là encore, les taux ont chuté pendant quelques jours puis le site en question a renforcé sa sécurité, les clients ont changé leurs mots de passe et Bitcoin a repris sa marche en avant.</p>
+
+:ET
