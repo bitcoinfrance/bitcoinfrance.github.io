@@ -12,12 +12,12 @@ NULLCMD = :
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /Users/noizat/.rvm/rubies/ruby-2.7.1/include/ruby-2.7.0
+topdir = /Users/alanturing/.rbenv/versions/2.7.1/include/ruby-2.7.0
 hdrdir = $(topdir)
-arch_hdrdir = /Users/noizat/.rvm/rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-darwin19
+arch_hdrdir = /Users/alanturing/.rbenv/versions/2.7.1/include/ruby-2.7.0/x86_64-darwin15
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/Users/noizat/.rvm/rubies/ruby-2.7.1
+prefix = $(DESTDIR)/Users/alanturing/.rbenv/versions/2.7.1
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20201028-59930-1fg8x9a
-sitelibdir = $(DESTDIR)./.gem.20201028-59930-1fg8x9a
+sitearchdir = $(DESTDIR)./.gem.20201029-39446-1bnq2j2
+sitelibdir = $(DESTDIR)./.gem.20201029-39446-1bnq2j2
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -65,8 +65,8 @@ archdir = $(rubyarchdir)
 
 
 CC_WRAPPER = 
-CC = gcc
-CXX = g++
+CC = clang
+CXX = clang++
 LIBRUBY = $(LIBRUBY_SO)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
 LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
@@ -81,16 +81,16 @@ cflags   = $(optflags) $(debugflags) $(warnflags)
 cxxflags = 
 optflags = -O3
 debugflags = -ggdb3
-warnflags = -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens
+warnflags = -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wmissing-noreturn -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens
 cppflags = 
 CCDLFLAGS = -fno-common
-CFLAGS   = $(CCDLFLAGS) $(cflags)  -fno-common -pipe  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -O3 -Wall -Wcast-qual -Wwrite-strings -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES $(ARCH_FLAG)
+CFLAGS   = $(CCDLFLAGS)  -O3 -Wno-error=shorten-64-to-32  -fno-common -pipe  -I /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2 -DNOKOGIRI_USE_PACKAGED_LIBRARIES $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir)
 DEFS     = 
-CPPFLAGS = -DHAVE_ICONV_H -DHAVE_XMLPARSEDOC -DHAVE_XSLTPARSESTYLESHEETDOC -DHAVE_EXSLTFUNCREGISTER -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -I/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/include/libxml2 -I/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34/include -I/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/include/libxml2  -I/usr/local/opt/libyaml/include -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl@1.1/include -I/usr/local/opt/libyaml/include -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl@1.1/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags) "-DNOKOGIRI_LIBXML2_PATH=\"/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""
+CPPFLAGS = -DHAVE_ICONV_H -DHAVE_XMLPARSEDOC -DHAVE_XSLTPARSESTYLESHEETDOC -DHAVE_EXSLTFUNCREGISTER -DHAVE_XMLHASFEATURE -DHAVE_XMLFIRSTELEMENTCHILD -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETPARSERSTRUCTUREDERRORS -DHAVE_XMLRELAXNGSETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETVALIDSTRUCTUREDERRORS -DHAVE_XMLSCHEMASETPARSERSTRUCTUREDERRORS -I/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/include/libxml2 -I/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34/include -I/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/include/libxml2 -I/Users/alanturing/.rbenv/versions/2.7.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags) "-DNOKOGIRI_LIBXML2_PATH=\"/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10\"" "-DNOKOGIRI_LIBXML2_PATCHES=\"0001-Revert-Do-not-URI-escape-in-server-side-includes.patch 0002-Remove-script-macro-support.patch 0003-Update-entities-to-remove-handling-of-ssi.patch 0004-libxml2.la-is-in-top_builddir.patch 0005-Fix-infinite-loop-in-xmlStringLenDecodeEntities.patch\"" "-DNOKOGIRI_LIBXSLT_PATH=\"/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34\"" "-DNOKOGIRI_LIBXSLT_PATCHES=\"\""
 CXXFLAGS = $(CCDLFLAGS) -g -O2 $(ARCH_FLAG)
-ldflags  = -L. -fstack-protector-strong -L/usr/local/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl@1.1/lib
-dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl@1.1/lib 
+ldflags  = -L. -L/Users/alanturing/.rbenv/versions/2.7.1/lib  -fstack-protector-strong -L/usr/local/lib
+dldflags = -L/Users/alanturing/.rbenv/versions/2.7.1/lib  -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress 
 ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -dynamic -bundle
@@ -105,7 +105,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = x86_64-darwin19
+arch = x86_64-darwin15
 sitearch = $(arch)
 ruby_version = 2.7.0
 ruby = $(bindir)/$(RUBY_BASE_NAME)
@@ -125,8 +125,8 @@ TOUCH = exit >
 #### End of system configuration section. ####
 
 preload = 
-libpath = . $(libdir) /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/lib /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34/lib /usr/local/opt/libyaml/lib /usr/local/opt/readline/lib /usr/local/opt/libksba/lib /usr/local/opt/openssl@1.1/lib /usr/local/Cellar/xz/5.2.5/lib
-LIBPATH =  -L. -L$(libdir) -L/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/lib -L/Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/Cellar/xz/5.2.5/lib
+libpath = . $(libdir) /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/lib /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34/lib /usr/local/Cellar/xz/5.2.5/lib
+LIBPATH =  -L. -L$(libdir) -L/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/lib -L/Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34/lib -L/usr/local/Cellar/xz/5.2.5/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log
@@ -137,7 +137,7 @@ extout =
 extout_prefix = 
 target_prefix = /nokogiri
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED) /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/lib/libxml2.a /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/noizat/code/workspace/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin19.4.0/libxml2/2.9.10/lib/libxml2.a -llzma   
+LIBS = $(LIBRUBYARG_SHARED) /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34/lib/libexslt.a -lm -liconv -lpthread -llzma -lz /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/lib/libxml2.a /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxslt/1.1.34/lib/libxslt.a -lm -liconv -lpthread -llzma -lz /Users/alanturing/Downloads/bitcoin-france/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.10/ports/x86_64-apple-darwin15.6.0/libxml2/2.9.10/lib/libxml2.a -llzma   
 ORIG_SRCS = html_document.c html_element_description.c html_entity_lookup.c html_sax_parser_context.c html_sax_push_parser.c nokogiri.c xml_attr.c xml_attribute_decl.c xml_cdata.c xml_comment.c xml_document.c xml_document_fragment.c xml_dtd.c xml_element_content.c xml_element_decl.c xml_encoding_handler.c xml_entity_decl.c xml_entity_reference.c xml_io.c xml_libxml2_hacks.c xml_namespace.c xml_node.c xml_node_set.c xml_processing_instruction.c xml_reader.c xml_relax_ng.c xml_sax_parser.c xml_sax_parser_context.c xml_sax_push_parser.c xml_schema.c xml_syntax_error.c xml_text.c xml_xpath_context.c xslt_stylesheet.c
 SRCS = $(ORIG_SRCS) 
 OBJS = html_document.o html_element_description.o html_entity_lookup.o html_sax_parser_context.o html_sax_push_parser.o nokogiri.o xml_attr.o xml_attribute_decl.o xml_cdata.o xml_comment.o xml_document.o xml_document_fragment.o xml_dtd.o xml_element_content.o xml_element_decl.o xml_encoding_handler.o xml_entity_decl.o xml_entity_reference.o xml_io.o xml_libxml2_hacks.o xml_namespace.o xml_node.o xml_node_set.o xml_processing_instruction.o xml_reader.o xml_relax_ng.o xml_sax_parser.o xml_sax_parser_context.o xml_sax_push_parser.o xml_schema.o xml_syntax_error.o xml_text.o xml_xpath_context.o xslt_stylesheet.o
